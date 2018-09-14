@@ -9,6 +9,8 @@ draft = false
 # caption = ""
 +++
 
+{{% toc %}}
+
 I am not an expert in web technologies, and therefore all the information below is provided on a "best of my knowledge" basis. However, the information below does reflect my intentions and aspirations for how this site should handle private information. If you happen to know any factual mistakes in the following, please do get in touch so I can rectify this policy.
 
 ## Who is responsible for this site and how to get in touch with them?
