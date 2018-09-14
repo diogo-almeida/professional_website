@@ -1,0 +1,26 @@
+# Theme metadata
+name = "Simple"
+
+# Is theme light or dark?
+# Diogo note: true = black text, false = white text
+light = true
+
+# Primary
+# primary = secondary textual elements and icons and links
+# primary_light = background to certain secondary elements (buttons)
+# primary_dark = background and contrast to secondary textual elements and icons
+# Paletton
+primary = "#008BA9" #"#DA4B39"
+primary_light = "#04CFFF"  #"#FFA69A"
+primary_dark = "#00576C"    #"#A61502"
+
+# Menu
+menu_primary = "#ffffff"
+menu_text = "#676b72"
+menu_text_active = "#bdbdbd" ##1682fb" #fc3768" ##600B00"
+menu_title = "#676b72"
+
+# Home sections
+background = "#ffffff"
+home_section_odd = "#ffffff"
+home_section_even = "#f8f8f8"  ##FFFAF9" #FFF8F7"

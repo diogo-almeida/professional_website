@@ -1,0 +1,15 @@
+# Font style metadata
+name = "da_font_theme_01"
+
+# Optional Google font URL
+google_fonts = "Lora|Encode+Sans+Condensed|Oxygen+Mono"
+
+# Font families
+heading_font = "Encode Sans Condensed"
+body_font = "Lora"
+nav_font = "Encode Sans Condensed"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "18"
+font_size_small = "16"
