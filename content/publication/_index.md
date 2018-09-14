@@ -17,6 +17,4 @@ image = ""
 caption = ""
 +++
 
-## My pubs
-
-my pubs, my pubs, my pubs
+{{% staticref "files/diogoalmeida.bib" %}}All my citations as a single bibtex file{{% /staticref %}}.
