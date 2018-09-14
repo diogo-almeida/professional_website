@@ -3,7 +3,7 @@
 widget = "hero"
 active = true
 date = 2017-10-15T00:00:00
-
+draft = true
 title = "Academic"
 
 # Order that this section will appear in.

@@ -2,13 +2,13 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = 2016-04-20T00:00:00
+date = 2018-08-25T00:00:00
 
-title = "Projects"
+title = "Research"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 20
 
 # Content.
 # Display content from the following folder.
@@ -34,12 +34,20 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
+  name = "Experimental Syntax"
+  tag = "Experimental Syntax"
 
 [[filter]]
-  name = "Other"
-  tag = "Demo"
+  name = "Speech Perception"
+  tag = "Speech Perception"
+
+[[filter]]
+  name = "Lexical Processing"
+  tag = "Lexical Processing"
+
+[[filter]]
+  name = "Sentence Processing"
+  tag = "Sentence Processing"
 
 +++
 

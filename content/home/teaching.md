@@ -15,14 +15,13 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+During the Fall 2018 semester, I am teaching the following courses at NYUAD:
 
-I am a teaching instructor for the following courses at University X:
+- PSYCH-UH 1001: Introduction to Psychology
+- PSYCH-UH 3615EQ: Lab in Psychology of Language
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+Courses that I have taught in the past at NYUAD and may teach again at some point in the future:
+
+- PSYCH-UH 2212: Psychology of Language
+- PSYCH-UH 2410: Cognition
+- CDAD-UH 1007EQ: The Mind

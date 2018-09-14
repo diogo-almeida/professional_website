@@ -10,31 +10,32 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Cognitive Science",
+    "Cognitive Neuroscience",
+    "Generative Linguistics",
+    "Experimental Syntax",
+    "Psycholinguistics",
+    "Neurolinguistics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "PhD in Linguistics"
+  institution = "University of Maryland, College Park"
   year = 2009
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "MA in Cognitive Science"
+  institution = "ENS/EHESS"
+  year = 2003
+
+[[education.courses]]
+  course = "BA in Languages and Literature"
+  institution = "Pontífica Universidade Católica - Rio (PUC-Rio)"
+  year = 2002
  
 +++
 
-# Biography
+I'm an associate professor in Psychology (with an affiliation in Biology) at New York University Abu Dhabi (NYUAD), where I direct the Language, Mind and Brain Lab (LaMB Lab). My work focuses on different aspects of language processing, such as how we perceive speech, how we retrieve words when hearing speech or reading, and how we parse and understand sentences. I am particularly interested in how the language system communicates with our perceptual and memory systems, and I use neuroimaging methods extensively in my research. I am also very fond of pursuing theoretically motivated cross-linguistic work.
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+If you are interested in research opportunities in my lab, see [here]({{< ref "student-research.md" >}}).
