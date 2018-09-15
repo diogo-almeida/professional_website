@@ -15,7 +15,7 @@ weight = 60
 
 +++
 
-During the Fall 2018 semester, I am teaching the following courses at NYUAD:
+During the Fall 2018 semester, I am teaching the following [courses at NYUAD](https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/psychology-major/courses.html):
 
 - PSYCH-UH 1001: Introduction to Psychology
 - PSYCH-UH 3615EQ: Lab in Psychology of Language
