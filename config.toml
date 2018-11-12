@@ -31,6 +31,7 @@ disqusShortname = ""
   username = "diogo-almeida"
   repository = "professional_website"
   branch = "master"
+  property = "comments"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-125821263-1"
