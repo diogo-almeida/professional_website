@@ -45,11 +45,25 @@
         <form class="post-new-comment" method="post" action="{{ .Site.Params.staticman.endpoint }}/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/{{ .Site.Params.staticman.property }}">
           <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
           <input type="hidden" name="options[slug]" value="{{ .Source.BaseFileName }}">
-          <input type="hidden" name="fields[postName]" value="{{ .Source.BaseFileName }}"/>          
-          <input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
-          <input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>          
-          <input type="address" name="fields[botpot]" placeholder="botpot (do not fill!)" style="display: none"></textarea>          
-          <textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
+          <fieldset>
+            <input type="hidden" name="fields[postName]" value="{{ .Source.BaseFileName }}"/>
+          </fieldset>
+
+          <fieldset>
+            <input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
+          </fieldset>
+
+          <fieldset>
+            <input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>          
+          </fieldset>
+
+          <fieldset>
+            <input type="address" name="fields[botpot]" placeholder="botpot (do not fill!)" style="display: none"></textarea>                 </fieldset>
+
+          <fieldset>
+            <textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>         
+          </fieldset>
+
           <!-- Following fields used for subscribing to comments -->
 <!--     <input type="hidden" name="options[origin]" value="{{ $.Permalink }}#comments">
           <input type="hidden" name="options[parent]" value="{{ .Source.BaseFileName }}"> -->
