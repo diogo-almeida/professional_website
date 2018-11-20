@@ -27,7 +27,7 @@ disqusShortname = ""
 
 # Add the following new Table somewhere under the params table
 [params.staticman]
-  endpoint = "http://139.59.33.152:8080/v2/entry"
+  endpoint = "https://diogoalmeida.xyz/v2/entry"
   username = "diogo-almeida"
   repository = "professional_website"
   branch = "master"
