@@ -60,7 +60,11 @@
           <fieldset>
             <textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
           </fieldset>
-
+          
+<input type="hidden" name="options[reCaptcha][siteKey]" value="6LfOF3wUAAAAAO7kjuxFtET8ljlJj3ngD72ueHBa">
+<input type="hidden" name="options[reCaptcha][secret]" value="wsnytlzGgqB7d8kIHU7NbxUFdL2jYFcF3zfgSE/j0EXKkii8cefvtgTYCevd76KVPym4Rx2dLudy/AXPuI4UTmtKI3t6LV3N5ZHUqQd0zdeD1Gnxa2a84soibBclulOTYXW1GtTLebJ3su3zPf6R8c9KEtQotWeAu96jWo7w2XG3Y9RaaR2Rl0gzK08AVvNqiQWhj3UIG8Q4zP3MXF6sfeI+VNlh+/9nnHf7BMuqcPdD847X6KGgBzaNzBKXqAw8QUwTS7bnd7blfzlLsGHeObbt1AmLARjxin8HffickH2gBkxMaRp9YVfM8z96aOFP8r/3MdAOHipf5n/C2NirPQ==">
+         <div class="g-recaptcha" data-sitekey="YOUR-SITE-KEY"></div>
+         <script src='https://www.google.com/recaptcha/api.js'></script>
           <!-- Following fields used for subscribing to comments -->
 <!--     <input type="hidden" name="options[origin]" value="{{ $.Permalink }}#comments">
           <input type="hidden" name="options[parent]" value="{{ .Source.BaseFileName }}"> -->

@@ -75,3 +75,9 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+
+  reCaptcha:
+    enabled: true
+    siteKey: "6LfOF3wUAAAAAO7kjuxFtET8ljlJj3ngD72ueHBa"
+    secret: "wsnytlzGgqB7d8kIHU7NbxUFdL2jYFcF3zfgSE/j0EXKkii8cefvtgTYCevd76KVPym4Rx2dLudy/AXPuI4UTmtKI3t6LV3N5ZHUqQd0zdeD1Gnxa2a84soibBclulOTYXW1GtTLebJ3su3zPf6R8c9KEtQotWeAu96jWo7w2XG3Y9RaaR2Rl0gzK08AVvNqiQWhj3UIG8Q4zP3MXF6sfeI+VNlh+/9nnHf7BMuqcPdD847X6KGgBzaNzBKXqAw8QUwTS7bnd7blfzlLsGHeObbt1AmLARjxin8HffickH2gBkxMaRp9YVfM8z96aOFP8r/3MdAOHipf5n/C2NirPQ=="
+    
