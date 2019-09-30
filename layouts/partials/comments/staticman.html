@@ -4,7 +4,7 @@
 
     {{ $comments := readDir "data/comments" }}
     {{ $.Scratch.Add "hasComments" 0 }}
-    {{ $postSlug := .File.Dir }}
+    {{ $postSlug := .File.Path }}
 
     {{ range $comments }}
       {{ if eq .Name $postSlug }}
