@@ -1,0 +1,61 @@
+September 30, 2019
+
+Trying to get my website up and running again
+
+Problem 1:
+
+- It appears that my local personal_website folder is not in sync with my github repo
+- Maybe this happens when my computer died last year, and I haven't been able to re-set it up since.
+
+What should I do?
+
+- I guess I can just clone my github repo, reset the permissions and restart my work
+
+major issue:
+
+- I did not document my previous work properly. It's gonna be a pain to re-do everything.
+
+
+Steps to retrieve the up-to-date repo from GitHub (Sep 30, 2019)
+================================================================
+
+1) Rename local folder out of sync.
+
+Personal_Website -> Personal_Website_OLD
+
+This worked by just renaming the folder and .Rproj file
+
+2) Cloning the github repo
+
+git clone https://github.com/diogo-almeida/professional_website.git professional_website
+
+3) That worked!! The Rproj file is there too. And if I click on it, it works normally in RStudio.
+
+4) Now I need to set the upload permissions!!!
+
+git remote -v
+
+This works. My GH repo is already set up as the fetch/pull one.
+
+Now I need to configure the push permissions.
+
+Attempt 1: update teaching.md to reflect my sabbatical year and try to push it online.
+(seems to have stalled) ---> ACTUALLY, it did go through. But how? OH, I see, I cloned it from my own github page. I am the only person who has access to that. Otherwise, it would have asked me to clone it.
+
+From what I understand, since I cloned using https, the push is also done in https, which requires password authentication. When I pushed the file, it did not ask for it, but maybe it is because git can remember a password for a few minutes, so we don't have to insert a password for every push?
+
+See this to explain the differences in protocols:
+https://gist.github.com/grawity/4392747
+
+And more generally:
+https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+https://help.github.com/en/articles/connecting-to-github-with-ssh
+https://github.com/settings/keys
+
+Ok, so I guess this means I have a working version of my website on my local folder again.
+
+Now I can start working on updating the infrastructure to Academic 4.5
+
+NOTE: this will require setting up Netlify as well, as it will require a new version of Hugo.
+
+
