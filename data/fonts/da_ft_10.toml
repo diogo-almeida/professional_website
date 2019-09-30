@@ -1,0 +1,11 @@
+# Font style metadata
+name = "da_ft_10"
+
+# Optional Google font URL
+google_fonts = "Source+Serif+Pro|News+Cycle:400,700|Source+Code+Pro"
+
+# Font families
+heading_font = "News Cycle"
+body_font = "Source Serif Pro"
+nav_font = "News Cycle"
+mono_font = "Source Code Pro"

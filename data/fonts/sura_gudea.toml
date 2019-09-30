@@ -1,0 +1,11 @@
+# Font style metadata
+name = "sura_gudea"
+
+# Optional Google font URL
+google_fonts = "Sura:400,700|Gudea|Roboto+Mono|PT+Serif"
+
+# Font families
+heading_font = "Sura"
+body_font = "Gudea"
+nav_font = "Sura"
+mono_font = "Roboto Mono"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "diogo"
+
+# Optional Google font URL
+google_fonts = "Faustina|Asul|Rosario|Gafata|Ruda|Cantarell|Athiti|Rambla|Quattrocento+Sans|Carrois+Gothic|Fira+Mono"
+
+# Font families
+heading_font = "Cantarell"
+body_font = "Faustina"
+nav_font = "Rosario"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

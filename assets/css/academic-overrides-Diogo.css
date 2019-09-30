@@ -1,0 +1,186 @@
+/*************************************************
+ *  CSS overrides fot the Hugo Academic theme
+ **************************************************/
+
+/*************************************************
+ *  Font faces
+ *
+ *  The best sans serif for the fonts I like seems
+ *  to be News Cycle, which is FREE!! (it's virtually identical to BarnaulGrotesk!)
+ *  Both BarnaulGrotesk and NatGrotesk (and NatGrotesk Nar) are the best non-free options. Fira Sans does a good job for Margon, Adonis, Scientia and some others
+ *  A good, but squarer approxiation is Titillium Web.
+ *  Rosario, Fontin Sans and Gafata are almost a perfect match to
+ *     - Scientia (Average Sans)
+ *     - Octava (Oswald is surprisingly ok)
+ *     - Aelita (Eau Naturelle, Source Sans Pro, Fira Sans, Fontin Sans)
+ *     - Orbi
+ *     - Adonis (especially Fontin Sans, Lato is ok, Cabin is ok, Assistant, Belleza, Shanti, Galdeano)
+ *     - Margon
+ *  News Cycle provides a good fit to the following
+ *  custom fonts for which I do have webfont licenses
+ *     - Octava (Average Sans)
+ *     - Aelita
+ *     - Scientia
+ *     - Deca Serif New
+ *     - Margon (380 or 400 seems best) (Fontin Sans, Belleza)
+ *     - Adonis
+ *  It also provides a good fit to the following google fonts
+ *     - Nanum Myeongjo (one of the best fits amongst all)
+ *     - PT Serif (texture is a tad too thick for my taste, but it works well)
+ *     - Source Serif Pro (about the same as PT Serif)
+ *     - Tinos (works well, but the texture is thicker than I would have liked)
+ *     - Manuale (works really well)
+ *     - Faustina (works really well, texture is just shy of too thick)
+ *     - Halant (works well; texture is ok, but may look a little too bland)
+ *     - Lora (works well, but the typeface is a little too retro imho)
+ *     - Maitree (works well, abou the same as Lora)
+ *     - Noticia Text (works well, but almost a bit too large)
+ *     - Martel (works well, but even a wee bit larger than Noticia Text)
+ *     - Vesper Libre (works ok, texture is just a bit too thick)
+ *     - Frank Ruhl Libre (works ok, texture is a bit too thick)
+ *     - David Libre (works ok, but there is a bit of visual clash imho)
+ *     - Noto Serif (texture is too thick)
+ *     - IBM Plex Serif (ok, but looks a bit too thick and big)
+ *     - Laila (same proportions but funky shapes. May work better as display.)
+ **************************************************/
+/* Body text */
+
+html {
+ /*font-family: '{{ .Get "body_font" }}', serif;*/
+ /* font-weight: 200; */
+}
+
+/* Navigation bar text */
+.navbar-light {
+  /*font-family: '{{ .Get "nav_font" }}', sans-serif;*/
+  /*text-transform: uppercase;*/
+}
+
+ /* Headings */
+h1, h2, h3, h4, h5, h6 {
+/*  font-family: '{{ .Get "heading_font" }}', sans-serif;*/
+  /*font-variant: small-caps;*/
+}
+
+section h1{
+  font-weight: 700;
+}
+article.article h1 {
+  font-weight: 700;
+}
+
+.article-date, .article-reading-time{
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.article-container {
+  max-width: 800px;
+	font-family: "Lora", serif;
+	font-size: 20px;
+	line-height: 34px;
+	padding: 21px;
+}
+
+.article-container h1 {
+  font-size: 41px;
+	line-height: 65px;
+	margin-bottom: 34px;
+}
+
+.article-container .title {
+	font-size: 52px;
+	line-height: 81px;
+	margin-bottom: 34px;
+}
+.article-container h2 {
+	font-size: 32px;
+	line-height: 52px;
+	margin-top: 55px;
+	margin-bottom: 21px;
+}
+.article-container h3 {
+	font-size: 25px;
+	line-height: 42px;
+	margin-top: 34px;
+	margin-bottom: 13px;
+}
+.article-container h4 {
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.article-container p, .article-container ul, .article-container ol, .article-container blockquote, .article-container pre, .article-container .alert, .article-container .note, .article-container .box, .article-container .footnotes {
+	margin-bottom: 34px;
+}
+.article-container ul, .article-container ol {
+	margin-left: 34px;
+}
+.article-container li {
+	margin-bottom: 13px;
+}
+.article-container blockquote {
+	padding-left: 21px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.15);
+	border-width: 0 0 0 8px;
+}
+.article-container sub, .article-container sup {
+	padding: 0 1px;
+}
+.article-container code, .article-container pre, .article-container kbd {
+	font-size: 18px;
+}
+.article-container code {
+	background-color: rgba(0,0,0,0.08);
+	padding: 4px 5px;
+	border-radius: 8px;
+	margin: 0 1px;
+}
+.article-container pre {
+	padding: 13px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.15);
+	border-width: 0 0 0 8px;
+}
+.article-container kbd {
+	background-color: #fff;
+	padding: 4px 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.45);
+	margin: 0 1px;
+}
+.article-container .alert, .article-container .note, .article-container .box {
+	padding: 21px;
+}
+.article-container .footnotes {
+	font-size: 16px;
+	line-height: 29px;
+	padding-top: 21px;
+	border-top: 1px dotted rgba(0,0,0,0.15);
+}
+.article-container .footnotes p {
+	margin-bottom: 21px;
+}
+.article-container ul ul, .article-container ul ol, .article-container ol ul, .article-container ol ol, .article-container blockquote.right p, .article-container blockquote.left p, .article-container .alert :last-child, .article-container .note :last-child, .article-container .box :last-child, .article-container .footnotes :last-child {
+	margin-bottom: 0;
+}
+@media all and (min-width: 868px) {
+	.article-container {
+		padding: 34px;
+	}
+}
+
+/*.article-style {*/
+/*  font-family: '{{ .Get "body_font" }}', serif;*/
+/*}*/
+
+/*.article-style pre,
+/*code {*/
+/*  font-family: '{{ .Get "mono_font" }}', monospace;*/
+/*}*/
+
+/*.article-style h2 {*/
+/*  font-weight: 400;*/
+/*}*/

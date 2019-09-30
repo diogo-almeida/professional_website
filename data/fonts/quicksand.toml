@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Quicksand"
+
+# Optional Google font URL
+google_fonts = "Quicksand:700|Muli|Roboto+Mono"
+
+# Font families
+heading_font = "Quicksand"
+body_font = "Muli"
+nav_font = "Quicksand"
+mono_font = "Roboto Mono"

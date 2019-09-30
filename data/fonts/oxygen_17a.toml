@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Oxygen 17A"
+
+# Optional Google font URL
+google_fonts = "Fauna+One|Oxygen|Oxygen+Mono"
+
+# Font families
+heading_font = "Fauna One"
+body_font = "Oxygen"
+nav_font = "Oxygen"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

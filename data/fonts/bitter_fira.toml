@@ -1,0 +1,11 @@
+# Font style metadata
+name = "bitter_fira"
+
+# Optional Google font URL
+google_fonts = "Bitter:400,700|Fira+Sans|Fira+Mono"
+
+# Font families
+heading_font = "Bitter"
+body_font = "Fira Sans"
+nav_font = "Bitter"
+mono_font = "Fira Mono"

@@ -56,6 +56,8 @@ Ok, so I guess this means I have a working version of my website on my local fol
 
 Now I can start working on updating the infrastructure to Academic 4.5
 
-NOTE: this will require setting up Netlify as well, as it will require a new version of Hugo.
+NOTE 1: this will require setting up Netlify as well, as it will require a new version of Hugo.
+
+NOTE 2: I am sort of a dumbass, as I HAD a local copy properly synced to GH. It was on Google Drive/Website not in Google Drive/RCode/personal_website!!
 
 

@@ -1,0 +1,14 @@
+# Font style metadata
+name = "da_ft_18"
+
+# Optional Google font URL
+# Arvo goes well with
+# Montserrat, Muli, Nunito Sans, Raleway (bold), Palanquin Dark,
+# Oxygen, Overpass, Catamaran, Roboto
+google_fonts = "Bitter|Open+Sans|Fira+Mono"
+
+# Font families
+heading_font = "Open Sans"
+body_font = "Bitter"
+nav_font = "Open Sans"
+mono_font = "Fira Mono"

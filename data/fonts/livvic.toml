@@ -1,0 +1,11 @@
+# Font style metadata
+name = "livvic"
+
+# OFiraional Google font URL
+google_fonts = "Arvo:400,700|Aleo:400,700|Zilla+Slab:400:700|Livvic:400,700|Roboto+Mono"
+
+# Font families
+heading_font = "Arvo"
+body_font = "Livvic"
+nav_font = "Arvo"
+mono_font = "Roboto Mono"

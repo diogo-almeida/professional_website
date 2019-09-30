@@ -1,0 +1,11 @@
+# Font style metadata
+name = "prompt"
+
+# Optional Google font URL
+google_fonts = "Prompt:300,500|Muli|Roboto+Mono"
+
+# Font families
+heading_font = "Prompt"
+body_font = "Muli"
+nav_font = "Prompt"
+mono_font = "Roboto Mono"

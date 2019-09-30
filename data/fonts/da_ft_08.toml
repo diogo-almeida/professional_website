@@ -1,0 +1,15 @@
+# Font style metadata
+name = "da_ft_08"
+
+# Optional Google font URL
+# Vollkorn goes well with
+# Ubuntu Condensed, Magra, Signika, Scada, Cabin Condensed
+# Karla, Actor, Nunito Sans,
+# Galeano, Proza Libre
+google_fonts = "Vollkorn|Ubuntu+Condensed|Inconsolata"
+
+# Font families
+heading_font = "Ubuntu Condensed"
+body_font = "Vollkorn"
+nav_font = "Ubuntu Condensed"
+mono_font = "Inconsolata"

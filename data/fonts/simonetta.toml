@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Simonetta:900|Source+Sans+Pro|Cabin|Soucce+Code+Pro"
+
+# Font families
+heading_font = "Simonetta"
+body_font = "Source Sans Pro"
+nav_font = "Simonetta"
+mono_font = "Source Code Pro"

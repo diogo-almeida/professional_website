@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Oxygen 8B"
+
+# Optional Google font URL
+google_fonts = "Glegoo|Oxygen|Oxygen+Mono"
+
+# Font families
+heading_font = "Oxygen"
+body_font = "Glegoo"
+nav_font = "Oxygen"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

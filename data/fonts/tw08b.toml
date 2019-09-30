@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_8b"
+
+# Optional Google font URL
+google_fonts = "Crimson+Text|Rosario|Inconsolata"
+
+# Font families
+heading_font = "Rosario"
+body_font = "Crimson Text"
+nav_font = "Rosario"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

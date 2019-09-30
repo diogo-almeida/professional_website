@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Paprika"
+
+# Optional Google font URL
+google_fonts = "Paprika|Encode+Sans+Condensed|B612+Mono"
+
+# Font families
+heading_font = "Paprika"
+body_font = "Encode Sans Condensed"
+nav_font = "Paprika"
+mono_font = "B612 Mono"

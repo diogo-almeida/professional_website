@@ -1,0 +1,14 @@
+# Font style metadata
+name = "da_ft_17"
+
+# Optional Google font URL
+# Arvo goes well with (Geomanist - not free, but cheap)
+# Montserrat, Muli, Nunito Sans, Raleway (bold), Palanquin Dark,
+# Oxygen, Overpass, Catamaran, Roboto
+google_fonts = "Arvo|Montserrat|Overpass+Mono"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Arvo"
+nav_font = "Montserrat"
+mono_font = "Overpass Mono"

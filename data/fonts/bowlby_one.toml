@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Bowlby_One"
+
+# OFiraional Google font URL
+google_fonts = "Bowlby+One|Roboto:400,700|Roboto+Mono"
+
+# Font families
+heading_font = "Bowlby One"
+body_font = "Roboto"
+nav_font = "Bowlby One"
+mono_font = "Robot Mono"

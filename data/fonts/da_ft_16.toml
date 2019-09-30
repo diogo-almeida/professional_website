@@ -1,0 +1,13 @@
+# Font style metadata
+name = "da_ft_16"
+
+# Optional Google font URL
+# Zilla Slab also goes well with
+# Muli, Cantarell, Catamaran, Hind, Montserrat
+google_fonts = "Zilla+Slab|Muli|Anonymous+Pro"
+
+# Font families
+heading_font = "Muli"
+body_font = "Zilla Slab"
+nav_font = "Muli"
+mono_font = "Anonymous Pro"

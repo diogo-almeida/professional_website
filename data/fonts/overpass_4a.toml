@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Overpass 4A"
+
+# Optional Google font URL
+google_fonts = "Karma|Overpass|Overpass+Mono"
+
+# Font families
+heading_font = "Karma"
+body_font = "Overpass"
+nav_font = "Overpass"
+mono_font = "Overpass Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

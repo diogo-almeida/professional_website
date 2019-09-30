@@ -1,0 +1,19 @@
+# Font style metadata
+name = "da_ft_04"
+
+# Optional Google font URL
+# Noticia Text goes well with
+# Ubuntu, Open Sans, Encode Sans Condensed, Merriweather Sans,
+# Magra, Nobile, Proza Libre,
+# Galdeano, Asul, Ruda
+google_fonts = "Noticia+Text|Ubuntu|Ubuntu+Mono"
+
+# Font families
+heading_font = "Ubuntu"
+body_font = "Noticia Text"
+nav_font = "Ubuntu"
+mono_font = "Ubuntu Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

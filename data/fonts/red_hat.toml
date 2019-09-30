@@ -1,0 +1,11 @@
+# Font style metadata
+name = "red_hat"
+
+# OFiraional Google font URL
+google_fonts = "Red+Hat+Display|Red+Hat+Text:400,700|Roboto+Mono"
+
+# Font families
+heading_font = "Red Hat Display"
+body_font = "Red Hat Text"
+nav_font = "Red Hat Display"
+mono_font = "Roboto Mono"

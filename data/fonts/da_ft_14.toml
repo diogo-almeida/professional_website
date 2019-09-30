@@ -1,0 +1,13 @@
+# Font style metadata
+name = "da_ft_14"
+
+# Optional Google font URL
+# Gentium also goes well with
+# Proza Libre, Cabin, Mada, Source Serif Pro, Palanquin, Assistant, Lato
+google_fonts = "Gentium+Book+Basic|Proza+Libre|Inconsolata"
+
+# Font families
+heading_font = "Proza Libre"
+body_font = "Gentium Book Basic"
+nav_font = "Proza Libre"
+mono_font = "Inconsolata"

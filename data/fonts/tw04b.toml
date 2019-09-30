@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_4b"
+
+# Optional Google font URL
+google_fonts = "Arvo|Montserrat|IBM+Plex+Mono"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Arvo"
+nav_font = "Montserrat"
+mono_font = "IBM Plex Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

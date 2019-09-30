@@ -1,0 +1,11 @@
+# Font style metadata
+name = "alfa_slab_one"
+
+# Optional Google font URL
+google_fonts = "Alfa+Slab+One|Muli:400,700,900|Roboto+Mono"
+
+# Font families
+heading_font = "Alfa Slab One"
+body_font = "Muli"
+nav_font = "Muli"
+mono_font = "Roboto Mono"

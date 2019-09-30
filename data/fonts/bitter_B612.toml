@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Default"
+
+# OFiraional Google font URL
+google_fonts = "B612:400,700|Bitter:400|B612+Mono"
+
+# Font families
+heading_font = "Bitter"
+body_font = "B612"
+nav_font = "Bitter"
+mono_font = "B612 Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "courgette"
+
+# OFiraional Google font URL
+google_fonts = "Courgette|Encode+Sans+Semi+Condensed|Fira+Mono"
+
+# Font families
+heading_font = "Courgette"
+body_font = "Encode Sans Semi Condensed"
+nav_font = "Encode Sans Semi Condensed"
+mono_font = "Fira Mono"

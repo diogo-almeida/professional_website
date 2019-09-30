@@ -1,0 +1,11 @@
+# Font style metadata
+name = "bitter_titillium"
+
+# Optional Google font URL
+google_fonts = "Bitter:400,700|Titillium+Web:400|Source+Code+Pro"
+
+# Font families
+heading_font = "Bitter"
+body_font = "Titillium Web"
+nav_font = "Bitter"
+mono_font = "Source Code Pro"

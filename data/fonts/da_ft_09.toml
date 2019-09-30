@@ -1,0 +1,13 @@
+# Font style metadata
+name = "da_ft_09"
+
+# Optional Google font URL
+# Montserrat also goes well with
+# Volkhov, Lora, Domine and Georgia
+google_fonts = "Volkhov|Montserrat|Roboto+Mono"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Volkhov"
+nav_font = "Montserrat"
+mono_font = "Roboto Mono"

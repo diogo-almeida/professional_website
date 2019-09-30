@@ -1,0 +1,11 @@
+# Font style metadata
+name = "amaranth"
+
+# Optional Google font URL
+google_fonts = "Amaranth:400,700|PT+Sans|Roboto+Mono"
+
+# Font families
+heading_font = "Amaranth"
+body_font = "PT Sans"
+nav_font = "Amaranth"
+mono_font = "Roboto Mono"

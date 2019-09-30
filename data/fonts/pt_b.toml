@@ -1,0 +1,15 @@
+# Font style metadata
+name = "PT fonts B"
+
+# Optional Google font URL
+google_fonts = "PT+Serif|PT+Sans|PT+Mono"
+
+# Font families
+heading_font = "PT Sans"
+body_font = "PT Serif"
+nav_font = "PT Sans"
+mono_font = "PT Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "da_ft_07"
+
+# Optional Google font URL
+google_fonts = "Manuale|Overpass|Overpass+Mono"
+
+# Font families
+heading_font = "Overpass"
+body_font = "Manuale"
+nav_font = "Overpass"
+mono_font = "Overpass Mono"

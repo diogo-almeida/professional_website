@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Oswald"
+
+# Optional Google font URL
+google_fonts = "Oswald:400,700|Encode+Sans+Condensed|Asap|Asap+Condensed|Fira+Mono|B612+Mono"
+
+# Font families
+heading_font = "Oswald"
+body_font = "Encode Sans Condensed"
+nav_font = "Oswald"
+mono_font = "B612 Mono"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_7b"
+
+# Optional Google font URL
+google_fonts = "Merriweather|Merriweather+Sans|Oxygen+Mono"
+
+# Font families
+heading_font = "Merriweather Sans"
+body_font = "Merriweather"
+nav_font = "Merriweather Sans"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

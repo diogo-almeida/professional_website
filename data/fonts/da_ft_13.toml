@@ -1,0 +1,14 @@
+# Font style metadata
+name = "da_ft_13"
+
+# Optional Google font URL
+# Tinos also goes well with
+# Gudea, Palanquin, Hind, Barlow, Mada, Scada, Assistant, PT Sans, Archivo Narrow,
+# Titilium Web, Cabin, Lato
+google_fonts = "Tinos|Gudea|Inconsolata"
+
+# Font families
+heading_font = "Gudea"
+body_font = "Tinos"
+nav_font = "Gudea"
+mono_font = "Inconsolata"

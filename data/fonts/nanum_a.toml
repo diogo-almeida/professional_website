@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Nanum A"
+
+# Optional Google font URL
+google_fonts = "Nanum+Myeongjo|Nanum+Gothic|Nanum+Gothic+Coding"
+
+# Font families
+heading_font = "Nanum Gothic"
+body_font = "Nanum Myeongjo"
+nav_font = "Nanum Gothic"
+mono_font = "Nanum Gothic Coding"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

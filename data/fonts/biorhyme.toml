@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Biorhyme"
+
+# Optional Google font URL
+google_fonts = "BioRhyme:800|Work+Sans|IBM+Plex+Mono"
+
+# Font families
+heading_font = "BioRhyme"
+body_font = "Work Sans"
+nav_font = "BioRhyme"
+mono_font = "IBM Plex Mono"

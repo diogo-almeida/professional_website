@@ -1,0 +1,76 @@
+/*************************************************
+ *  CSS overrides fot the Hugo Academic theme
+ **************************************************/
+
+/*************************************************
+ *  Font faces
+ *
+ *  The best sans serif for the fonts I like seems
+ *  to be News Cycle, which is FREE!! (it's virtually identical to BarnaulGrotesk!)
+ *  Both BarnaulGrotesk and NatGrotesk (and NatGrotesk Nar) are the best non-free options. Fira Sans does a good job for Margon, Adonis, Scientia and some others
+ *  A good, but squarer approxiation is Titillium Web.
+ *  Rosario, Fontin Sans and Gafata are almost a perfect match to
+ *     - Scientia (Average Sans)
+ *     - Octava (Oswald is surprisingly ok)
+ *     - Aelita (Eau Naturelle, Source Sans Pro, Fira Sans, Fontin Sans)
+ *     - Orbi
+ *     - Adonis (especially Fontin Sans, Lato is ok, Cabin is ok, Assistant, Belleza, Shanti, Galdeano)
+ *     - Margon
+ *  News Cycle provides a good fit to the following
+ *  custom fonts for which I do have webfont licenses
+ *     - Octava (Average Sans)
+ *     - Aelita
+ *     - Scientia
+ *     - Deca Serif New
+ *     - Margon (380 or 400 seems best) (Fontin Sans, Belleza)
+ *     - Adonis
+ *  It also provides a good fit to the following google fonts
+ *     - Nanum Myeongjo (one of the best fits amongst all)
+ *     - PT Serif (texture is a tad too thick for my taste, but it works well)
+ *     - Source Serif Pro (about the same as PT Serif)
+ *     - Tinos (works well, but the texture is thicker than I would have liked)
+ *     - Manuale (works really well)
+ *     - Faustina (works really well, texture is just shy of too thick)
+ *     - Halant (works well; texture is ok, but may look a little too bland)
+ *     - Lora (works well, but the typeface is a little too retro imho)
+ *     - Maitree (works well, abou the same as Lora)
+ *     - Noticia Text (works well, but almost a bit too large)
+ *     - Martel (works well, but even a wee bit larger than Noticia Text)
+ *     - Vesper Libre (works ok, texture is just a bit too thick)
+ *     - Frank Ruhl Libre (works ok, texture is a bit too thick)
+ *     - David Libre (works ok, but there is a bit of visual clash imho)
+ *     - Noto Serif (texture is too thick)
+ *     - IBM Plex Serif (ok, but looks a bit too thick and big)
+ *     - Laila (same proportions but funky shapes. May work better as display.)
+ **************************************************/
+/* Body text */
+ html {
+ font-family: Vremena Grotesk, '{{ .Get "body_font" }}', sans-serif;
+/* font-weight: 200; */
+}
+
+/* Navigation bar text */
+.navbar-light {
+  font-family: Vremena Grotesk, '{{ .Get "nav_font" }}', sans-serif;
+  text-transform: uppercase;
+}
+
+ /* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Vremena Grotesk, '{{ .Get "heading_font" }}', sans-serif;
+  /*font-variant: small-caps;*/
+}
+
+
+.article-style {
+  font-family: Vremena Grotesk, sans-serif;
+}
+
+.article-style pre,
+code {
+  font-family: Roboto Mono, '{{ .Get "mono_font" }}', monospace;
+}
+
+.article-style h2 {
+  font-weight: 400;
+}

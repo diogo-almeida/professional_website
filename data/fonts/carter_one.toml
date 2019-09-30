@@ -1,0 +1,11 @@
+# Font style metadata
+name = "carter_one"
+
+# Optional Google font URL
+google_fonts = "Carter+One|PT+Sans|PT+Mono"
+
+# Font families
+heading_font = "Carter One"
+body_font = "PT Sans"
+nav_font = "Carter One"
+mono_font = "Overpass Mono"

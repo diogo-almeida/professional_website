@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Oxygen 13A"
+
+# Optional Google font URL
+google_fonts = "Adamina|Oxygen|Oxygen+Mono"
+
+# Font families
+heading_font = "Adamina"
+body_font = "Oxygen"
+nav_font = "Oxygen"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

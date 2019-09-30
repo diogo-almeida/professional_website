@@ -1,0 +1,15 @@
+# Font style metadata
+name = "contrail_one"
+
+# Optional Google font URL
+google_fonts = "Contrail+One|PT+Sans+Narrow|PT+Mono"
+
+# Font families
+heading_font = "Contrail One"
+body_font = "PT Sans Narrow"
+nav_font = "Contrail One"
+mono_font = "Overpass Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

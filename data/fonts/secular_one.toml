@@ -1,0 +1,11 @@
+# Font style metadata
+name = "secular_one"
+
+# Optional Google font URL
+google_fonts = "Secular+One|PT+Sans|Overpass|Maven+Pro|Cantarell|Ropa+Sans|Scada|Cambay|Niramit:400,700|PT+Mono|Overpass+Mono"
+
+# Font families
+heading_font = "Secular One"
+body_font = "PT Sans"
+nav_font = "Secular One"
+mono_font = "Overpass Mono"

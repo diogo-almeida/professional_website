@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Bitter:400,700|Muli:300|Roboto+Mono"
+
+# Font families
+heading_font = "Bitter"
+body_font = "Muli"
+nav_font = "Bitter"
+mono_font = "Roboto Mono"

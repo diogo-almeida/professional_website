@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Literata"
+
+# OFiraional Google font URL
+google_fonts = "Literata:400,700|Work+Sans:400,700|Fira+Code"
+
+# Font families
+heading_font = "Work Sans"
+body_font = "Literata"
+nav_font = "Work Sans"
+mono_font = "Fira Code"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_2a"
+
+# Optional Google font URL
+google_fonts = "Domine|Open+Sans|Cousine"
+
+# Font families
+heading_font = "Domine"
+body_font = "Open Sans"
+nav_font = "Open Sans"
+mono_font = "Cousine"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

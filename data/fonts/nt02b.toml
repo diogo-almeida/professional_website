@@ -1,0 +1,15 @@
+# Font style metadata
+name = "nt02b"
+
+# Optional Google font URL
+google_fonts = "Noticia+Text|Rosario|Fira+Mono"
+
+# Font families
+heading_font = "Rosario"
+body_font = "Noticia Text"
+nav_font = "Rosario"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

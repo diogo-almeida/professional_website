@@ -1,0 +1,15 @@
+# Font style metadata
+name = "b612_lora"
+
+# Optional Google font URL
+google_fonts = "Lora|B612:400,700|B612+Mono"
+
+# Font families
+heading_font = "B612"
+body_font = "Lora"
+nav_font = "B612"
+mono_font = "B612 Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

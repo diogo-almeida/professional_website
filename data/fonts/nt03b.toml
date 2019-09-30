@@ -1,0 +1,15 @@
+# Font style metadata
+name = "nt03b"
+
+# Optional Google font URL
+google_fonts = "Noticia+Text|Proza+Libre|Fira+Mono"
+
+# Font families
+heading_font = "Proza Libre"
+body_font = "Noticia Text"
+nav_font = "Proza Libre"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

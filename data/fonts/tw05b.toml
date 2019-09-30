@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_5b"
+
+# Optional Google font URL
+google_fonts = "Source+Serif+Pro|Source+Sans+Pro|Source+Code+Pro"
+
+# Font families
+heading_font = "Source Sans Pro"
+body_font = "Source Serif Pro"
+nav_font = "Source Sans Pro"
+mono_font = "Source Code Pro"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

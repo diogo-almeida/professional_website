@@ -1,0 +1,13 @@
+# Font style metadata
+name = "da_ft_11"
+
+# Optional Google font URL
+# Amiri also goes well with
+# Signika, Molengo, Puritan, Cantarell
+google_fonts = "Amiri|Mukta|Inconsolata"
+
+# Font families
+heading_font = "Mukta"
+body_font = "Amiri"
+nav_font = "Mukta"
+mono_font = "Inconsolata"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "passion_one"
+
+# Optional Google font URL
+google_fonts = "Passion+One:400|Alegreya+Sans|Incosolata"
+
+# Font families
+heading_font = "Passion One"
+body_font = "Alegreya Sans"
+nav_font = "Alegreya Sans"
+mono_font = "Incosolata"

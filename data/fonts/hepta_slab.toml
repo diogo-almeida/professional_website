@@ -1,0 +1,11 @@
+# Font style metadata
+name = "hepta_slab"
+
+# OFiraional Google font URL
+google_fonts = "Hepta+Slab:400,700|Work+Sans:400,700|Source+Code+Pro"
+
+# Font families
+heading_font = "Hepta Slab"
+body_font = "Work Sans"
+nav_font = "Hepta Slab"
+mono_font = "Source Code Pro"

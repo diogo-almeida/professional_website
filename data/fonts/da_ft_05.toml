@@ -1,0 +1,20 @@
+# Font style metadata
+name = "da_ft_05"
+
+# Optional Google font URL
+# Spectral pairs well with
+# Source Sans Pro, Lato but also with
+# Rambla, Quattrocento Sans, Ropa Sans, Cabin Condensed, Galdeano, Asul, Alegreya Sans 
+# Mono fonts that work well with Spectral to different extents:
+# Inconsolata, Source Code Pro, Ubuntu Mono
+google_fonts = "Spectral|Source+Sans+Pro|Inconsolata"
+
+# Font families
+heading_font = "Source Sans Pro"
+body_font = "Spectral"
+nav_font = "Source Sans Pro"
+mono_font = "Inconsolata"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

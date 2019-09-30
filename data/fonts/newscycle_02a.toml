@@ -1,0 +1,15 @@
+# Font style metadata
+name = "News Cycle 2A"
+
+# Optional Google font URL
+google_fonts = "PT+Serif|News+Cycle|Fira+Mono"
+
+# Font families
+heading_font = "PT Serif"
+body_font = "News Cycle"
+nav_font = "News Cycle"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

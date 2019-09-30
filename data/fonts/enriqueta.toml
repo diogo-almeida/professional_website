@@ -1,0 +1,11 @@
+# Font style metadata
+name = "enriqueta"
+
+# Optional Google font URL
+google_fonts = "Enriqueta:400,700|Fira+Sans|Fira+Mono"
+
+# Font families
+heading_font = "Enriqueta"
+body_font = "Fira Sans"
+nav_font = "Enriqueta"
+mono_font = "Fira Mono"

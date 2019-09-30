@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Overlock"
+
+# Optional Google font URL
+google_fonts = "Overlock:700,900|Lato|Source+Code+Pro"
+
+# Font families
+heading_font = "Overlock"
+body_font = "Lato"
+nav_font = "Overlock"
+mono_font = "Source Code Pro"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "da_ft_06"
+
+# Optional Google font URL
+google_fonts = "Faustina|Nunito+Sans|Overpass+Mono"
+
+# Font families
+heading_font = "Nunito Sans"
+body_font = "Faustina"
+nav_font = "Nunito Sans"
+mono_font = "Overpass Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

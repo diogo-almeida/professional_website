@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_10b"
+
+# Optional Google font URL
+google_fonts = "Roboto+Slab|Roboto|Roboto+Mono"
+
+# Font families
+heading_font = "Roboto"
+body_font = "Roboto Slab"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Oxygen 5A"
+
+# Optional Google font URL
+google_fonts = "Crete+Round|Oxygen|Oxygen+Mono"
+
+# Font families
+heading_font = "Crete Round"
+body_font = "Oxygen"
+nav_font = "Oxygen"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

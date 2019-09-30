@@ -1,0 +1,11 @@
+# Font style metadata
+name = "averia_serif_libre"
+
+# Optional Google font URL
+google_fonts = "Averia+Serif+Libre|Source+Sans+Pro|Source+Code+Pro"
+
+# Font families
+heading_font = "Averia Serif Libre"
+body_font = "Source Sans Pro"
+nav_font = "Averia Serif Libre"
+mono_font = "Source Code Pro"

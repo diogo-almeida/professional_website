@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_9a"
+
+# Optional Google font URL
+google_fonts = "Lora|Varela+Round|Oxygen+Mono"
+
+# Font families
+heading_font = "Lora"
+body_font = "Varela Round"
+nav_font = "Varela Round"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

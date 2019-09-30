@@ -1,0 +1,15 @@
+# Font style metadata
+name = "nt06a"
+
+# Optional Google font URL
+google_fonts = "Noticia+Text|Athiti|Fira+Mono"
+
+# Font families
+heading_font = "Noticia Text"
+body_font = "Athiti"
+nav_font = "Athiti"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

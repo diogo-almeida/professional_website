@@ -1,0 +1,13 @@
+# Font style metadata
+name = "da_ft_15"
+
+# Optional Google font URL
+# EB Garamond also goes well with
+# Quattrocento+Sans, Alegreya+Sans, Rambla, Asul, Cabin Condensed, Ropa+Sans
+google_fonts = "EB+Garamond|Quattrocento+Sans|Inconsolata"
+
+# Font families
+heading_font = "Quattrocento Sans"
+body_font = "EB Garamond"
+nav_font = "Quattrocento Sans"
+mono_font = "Inconsolata"

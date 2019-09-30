@@ -1,0 +1,15 @@
+# Font style metadata
+name = "bree_serif"
+
+# Optional Google font URL
+google_fonts = "Bree+Serif|PT+Sans|Maven+Pro|Cambay|Niramit:400,700|Cousine"
+
+# Font families
+heading_font = "Bree Serif"
+body_font = "Niramit"
+nav_font = "Bree Serif"
+mono_font = "Cousine"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

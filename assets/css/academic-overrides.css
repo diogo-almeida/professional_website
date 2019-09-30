@@ -1,0 +1,193 @@
+/*************************************************
+ *  CSS overrides fot the Hugo Academic theme
+ **************************************************/
+
+/*************************************************
+ *  Font faces
+ *
+ *  The best sans serif for the fonts I like seems
+ *  to be News Cycle, which is FREE!! (it's virtually identical to BarnaulGrotesk!)
+ *  Both BarnaulGrotesk and NatGrotesk (and NatGrotesk Nar) are the best non-free options. Fira Sans does a good job for Margon, Adonis, Scientia and some others
+ *  A good, but squarer approxiation is Titillium Web.
+ *  Rosario, Fontin Sans and Gafata are almost a perfect match to
+ *     - Scientia (Average Sans)
+ *     - Octava (Oswald is surprisingly ok)
+ *     - Aelita (Eau Naturelle, Source Sans Pro, Fira Sans, Fontin Sans)
+ *     - Orbi
+ *     - Adonis (especially Fontin Sans, Lato is ok, Cabin is ok, Assistant, Belleza, Shanti, Galdeano)
+ *     - Margon
+ *  News Cycle provides a good fit to the following
+ *  custom fonts for which I do have webfont licenses
+ *     - Octava (Average Sans)
+ *     - Aelita
+ *     - Scientia
+ *     - Deca Serif New
+ *     - Margon (380 or 400 seems best) (Fontin Sans, Belleza)
+ *     - Adonis
+ *  It also provides a good fit to the following google fonts
+ *     - Nanum Myeongjo (one of the best fits amongst all)
+ *     - PT Serif (texture is a tad too thick for my taste, but it works well)
+ *     - Source Serif Pro (about the same as PT Serif)
+ *     - Tinos (works well, but the texture is thicker than I would have liked)
+ *     - Manuale (works really well)
+ *     - Faustina (works really well, texture is just shy of too thick)
+ *     - Halant (works well; texture is ok, but may look a little too bland)
+ *     - Lora (works well, but the typeface is a little too retro imho)
+ *     - Maitree (works well, abou the same as Lora)
+ *     - Noticia Text (works well, but almost a bit too large)
+ *     - Martel (works well, but even a wee bit larger than Noticia Text)
+ *     - Vesper Libre (works ok, texture is just a bit too thick)
+ *     - Frank Ruhl Libre (works ok, texture is a bit too thick)
+ *     - David Libre (works ok, but there is a bit of visual clash imho)
+ *     - Noto Serif (texture is too thick)
+ *     - IBM Plex Serif (ok, but looks a bit too thick and big)
+ *     - Laila (same proportions but funky shapes. May work better as display.)
+ **************************************************/
+/* Body text */
+ html {
+  font-family: Spectral, Lora, '{{ .Get "body_font" }}', sans-serif;
+  font-size: 18px;
+  color: rgba(0,0,0,0.8);
+  line-height: 30px;
+  padding: 19px;
+ }
+@media screen and (min-width: 37.5em) {
+  html {
+    font-size: {{ .Get "font_size" }}px;
+  }
+}
+
+body {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  color: inherit;
+  background-color: {{ .Get "background" }};
+  margin-top: 70px; /* Offset body content by navbar height. */
+  padding-top: 0;
+  counter-reset: captions;
+}
+@media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
+  body {
+    margin-top: 50px; /* Offset body content by navbar height. */
+  }
+}
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+.ul-interests ul {
+  line-height: 28px;
+  margin-bottom: 28px;
+	margin-left: 28px;
+}
+
+.ul-interests li {
+	margin-bottom: 7px;
+}
+
+.ul-edu .fa-ul li {
+	margin-bottom: 7px;
+}
+
+li {
+	margin-bottom: 12px;
+}
+
+/* Navigation bar text */
+.navbar-light {
+  font-family: Encode Sans Condensed, '{{ .Get "nav_font" }}', sans-serif;
+  font-weight: 700;
+  line-height: 1.925926rem;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+ /* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Encode Sans Condensed, '{{ .Get "heading_font" }}', sans-serif;
+  /*font-variant: small-caps;*/
+}
+
+h1 {
+  font-size: 2.055556rem;
+  line-height: 1.9rem;
+	margin-bottom: 30px;
+}
+h2 {
+	margin-top: 44px;
+  font-size: 1.611111rem;
+  line-height: 2.55556rem;
+	margin-bottom: 19px;
+}
+h3 {
+  font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 11px;
+  font-size: 1.2788rem;
+  line-height: 1.23rem;
+}
+h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
+	margin-bottom: 7px;
+}
+
+pre {
+	padding: 12px;
+  margin: 0 0 1rem 0;
+  background-color: rgb(248, 248, 248); /* Match default highlight theme. */
+  border-color: rgb(248, 248, 248);
+  font-size: 0.8888889rem;
+  border-radius: 4px;
+	border-width: 0 0 0 7px;
+}
+
+code {
+	background-color: rgba(0,0,0,0.08);
+	padding: 3px 4px;
+	border-radius: 7px;
+	margin: 0 1px;
+}
+
+pre code {
+  white-space: pre; /* Override Bootstrap to preserve line breaks in code. */
+  overflow-x: auto;
+}
+
+.card-text p {
+  font-size: 0.7777778rem;
+  line-height: 22px;
+}
+
+.article-style pre,
+code {
+  font-family: Roboto Mono, '{{ .Get "mono_font" }}', monospace;
+}
+
+.course p {
+  line-height: 28 px;
+  margin-bottom: 17px;
+}
+
+.institution p {
+  font-size: 14px;
+  line-height: 23 px;
+  margin-bottom: 7px;
+}
+
+/* .article-style h2 { */
+/*  font-weight: 400; */
+/* }                  */

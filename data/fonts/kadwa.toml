@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Kadwa"
+
+# Optional Google font URL
+google_fonts = "Kadwa:400,700|Asap|Libre+Franklin|Source+Code+Pro"
+
+# Font families
+heading_font = "Kadwa"
+body_font = "Asap"
+nav_font = "Kadwa"
+mono_font = "Source Code Pro"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "faustina04b"
+
+# Optional Google font URL
+google_fonts = "Faustina|Carrois+Gothic|Fira+Mono"
+
+# Font families
+heading_font = "Carrois Gothic"
+body_font = "Faustina"
+nav_font = "Carrois Gothic"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

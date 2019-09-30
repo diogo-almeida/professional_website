@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Oxygen 2B"
+
+# Optional Google font URL
+google_fonts = "Merriweather|Oxygen|Oxygen+Mono"
+
+# Font families
+heading_font = "Oxygen"
+body_font = "Merriweather"
+nav_font = "Oxygen"
+mono_font = "Oxygen Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

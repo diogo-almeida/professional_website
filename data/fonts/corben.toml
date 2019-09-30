@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Corben"
+
+# Optional Google font URL
+google_fonts = "Corben:400|Titillium+Web|Rubik|Libre+Franklin:300,700|Istok+Web|Anton|Fira+Mono"
+
+# Font families
+heading_font = "Corben"
+body_font = "Libre Franklin"
+nav_font = "Corben"
+mono_font = "Fira Mono"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Aleo"
+
+# OFiraional Google font URL
+google_fonts = "Aleo:400,700|Lato:400,700|Source+Code+Pro"
+
+# Font families
+heading_font = "Aleo"
+body_font = "Lato"
+nav_font = "Aleo"
+mono_font = "Source Code Pro"

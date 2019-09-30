@@ -1,0 +1,11 @@
+# Font style metadata
+name = "buenard"
+
+# Optional Google font URL
+google_fonts = "Buenard:400,700|Cambay|PT+Mono"
+
+# Font families
+heading_font = "Buenard"
+body_font = "Cambay"
+nav_font = "Buenard"
+mono_font = "PT Mono"

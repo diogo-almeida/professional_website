@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_1a"
+
+# Optional Google font URL
+google_fonts = "Playfair+Display|Fira+Sans|Fira+Mono"
+
+# Font families
+heading_font = "Playfair Display"
+body_font = "Fira Sans"
+nav_font = "Playfair Display"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

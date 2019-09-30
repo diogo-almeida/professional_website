@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Pridi:400,600|Overpass:200,300|Overpass+Mono"
+
+# Font families
+heading_font = "Pridi"
+body_font = "Overpass"
+nav_font = "Overpass"
+mono_font = "Overpass Mono"

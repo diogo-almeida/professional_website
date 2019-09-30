@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Fredoka_One"
+
+# OFiraional Google font URL
+google_fonts = "Fredoka+One|Muli:400,700|Nunito:400,700|Ubuntu:400,700|Roboto+Mono|Josefin+Sans:400,600|Livvic:400,700|Work+Sans:400,700|Roboto+Mono|Karla:400,700|Chivo:400,700|IBM+Plex+Sans:400,700|IBM+Plex+Mono"
+
+# Font families
+heading_font = "Fredoka One"
+body_font = "Muli"
+nav_font = "Fredoka One"
+mono_font = "Roboto Mono"

@@ -1,0 +1,15 @@
+# Font style metadata
+name = "nt01b"
+
+# Optional Google font URL
+google_fonts = "Noticia+Text|Gafata|Fira+Mono"
+
+# Font families
+heading_font = "Gafata"
+body_font = "Noticia Text"
+nav_font = "Gafata"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

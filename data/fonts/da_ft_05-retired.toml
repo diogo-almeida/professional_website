@@ -1,0 +1,15 @@
+# Font style metadata
+name = "da_ft_05"
+
+# Optional Google font URL
+google_fonts = "Noticia+Text|Fira+Sans+Condensed|Fira+Mono"
+
+# Font families
+heading_font = "Fira Sans Condensed"
+body_font = "Noticia Text"
+nav_font = "Fira Sans Condensed"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

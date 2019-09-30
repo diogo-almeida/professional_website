@@ -1,0 +1,15 @@
+# Font style metadata
+name = "typewolf_6b"
+
+# Optional Google font URL
+google_fonts = "Neuton|Lato|Inconsolata"
+
+# Font families
+heading_font = "Lato"
+body_font = "Neuton"
+nav_font = "Lato"
+mono_font = "Inconsolata"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

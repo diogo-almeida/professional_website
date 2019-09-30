@@ -1,0 +1,15 @@
+# Font style metadata
+name = "faustina03b"
+
+# Optional Google font URL
+google_fonts = "Faustina|Gafata|Fira+Mono"
+
+# Font families
+heading_font = "Gafata"
+body_font = "Faustina"
+nav_font = "Gafata"
+mono_font = "Fira Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Patua_One"
+
+# Optional Google font URL
+google_fonts = "Patua+One|PT+Sans|Muli|Roboto+Mono"
+
+# Font families
+heading_font = "Patua One"
+body_font = "Muli"
+nav_font = "Patua One"
+mono_font = "Roboto Mono"

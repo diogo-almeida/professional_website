@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Farro"
+
+# OFiraional Google font URL
+google_fonts = "Farro:400,700|Overpass:400,700|Overpass+Mono|B612:400,700|B612+Mono"
+
+# Font families
+heading_font = "Farro"
+body_font = "B612"
+nav_font = "Farro"
+mono_font = "B612 Mono"

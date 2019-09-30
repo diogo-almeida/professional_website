@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Rakkas"
+
+# OFiraional Google font URL
+google_fonts = "Rakkas|Crimson+Pro:400,700|Kreon:400,700|Unna:400,700|Manuale:400,700|Literata:400,700|Gentium+Book+Basic:400,700|IBM+Plex+Serif:400,700|IBM+Plex+Mono|Volkhov:400,700|Lora:400,700|Tinos:400,700|Alegreya:400,700|Fira+Sans:400,700|Fira+Code|Work+Sans:400,700"
+
+# Font families
+heading_font = "Rakkas"
+body_font = "Crimson Pro"
+nav_font = "Rakkas"
+mono_font = "IBM Plex Mono"

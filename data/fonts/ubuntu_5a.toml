@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Ubuntu 5A"
+
+# Optional Google font URL
+google_fonts = "Crete+Round|Ubuntu|Ubuntu+Mono"
+
+# Font families
+heading_font = "Crete Round"
+body_font = "Ubuntu"
+nav_font = "Ubuntu"
+mono_font = "Ubuntu Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

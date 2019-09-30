@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Gravitas_One"
+
+# OFiraional Google font URL
+google_fonts = "Gravitas+One|Istok+Web:400,700|Nunito+Sans:400,700|Sarabun:400,700|Roboto+Mono|Rubik:400,700|Livvic:400,700|Work+Sans:400,700|Roboto+Mono|Karla:400,700|Chivo:400,700|IBM+Plex+Sans:400,700|IBM+Plex+Mono"
+
+# Font families
+heading_font = "Gravitas One"
+body_font = "Work Sans"
+nav_font = "Gravitas One"
+mono_font = "Roboto Mono"

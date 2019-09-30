@@ -1,0 +1,13 @@
+# Font style metadata
+name = "da_ft_12"
+
+# Optional Google font URL
+# Crimson Text also goes well with
+#
+google_fonts = "Crimson+Text|Rosario|Inconsolata"
+
+# Font families
+heading_font = "Rosario"
+body_font = "Crimson Text"
+nav_font = "Rosario"
+mono_font = "Inconsolata"

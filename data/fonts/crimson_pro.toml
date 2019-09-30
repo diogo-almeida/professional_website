@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Crimson Pro"
+
+# OFiraional Google font URL
+google_fonts = "Crimson+Pro:400,700|Mukta:400,700|Inconsolata"
+
+# Font families
+heading_font = "Mukta"
+body_font = "Crimson Pro"
+nav_font = "Mukta"
+mono_font = "Inconsolata"
