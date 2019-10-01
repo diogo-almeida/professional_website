@@ -1,10 +1,10 @@
 {{ if .Site.Params.comments.staticman }}
 <section class="staticman-comments post-comments">
   <h3>Comments</h3>
-
+  
+    {{ $postSlug := .File.Dir}}
     {{ $comments := readDir "data/comments" }}
     {{ $.Scratch.Add "hasComments" 0 }}
-    {{ $postSlug := .File.Dir }}
 
 
     {{ range $comments }}
