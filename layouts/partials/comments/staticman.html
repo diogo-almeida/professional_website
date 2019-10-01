@@ -1,11 +1,12 @@
 {{ if .Site.Params.comments.staticman }}
-{{ $postSlug := .File.BaseFileName }}
 <section class="staticman-comments post-comments">
   <h3>Comments</h3>
 
   {{ with .Resources.Match "comments/*.yml" }}
 	  {{ range . }}
-	    {{ $comment := .Content | transform.Unmarshal }}
+    {{ $postSlug := .File.BaseFileName }}
+    {{ printf $postSlug }}
+    {{ $comment := .Content | transform.Unmarshal }}
     	{{ with $comment }}
 	 		  <div id="commentid-{{ ._id }}" class="post-comment">
           <div class="post-comment-header">
