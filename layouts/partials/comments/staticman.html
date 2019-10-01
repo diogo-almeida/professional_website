@@ -1,5 +1,5 @@
 {{ if .Site.Params.comments.staticman }}
-{{ $postSlug := .File.BaseFileName }}
+{{ $postSlug := .RelPermalink }}
 
 <section class="staticman-comments post-comments">
   <h3>Comments</h3>
