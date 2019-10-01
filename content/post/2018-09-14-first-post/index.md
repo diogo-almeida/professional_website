@@ -2,7 +2,7 @@
 title: First Post
 author: Diogo Almeida
 date: '2018-09-14'
-slug: first-post
+slug: "" ##first-post
 categories:
   - Other
 tags: []

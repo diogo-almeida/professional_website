@@ -56,23 +56,25 @@
   {{/* Show Staticman comment count if enabled. */}}
   {{ $staticman_enabled := eq site.Params.comments.engine 3 | and (index site.Params.comments.commentable $page.Type) | and (ne $page.Params.commentable false) | or $page.Params.commentable }}
   {{ if and $staticman_enabled (site.Params.comments.staticman.show_count | default true) }}
-    {{ $nComments := newScratch }}
-    {{ $nComments.Set "nComments" 0 }}
-    {{ with $page.Resources.Match "comments/*.yml" }}
-      {{ $nComments.Set "nComments" ( len . ) }}
-    {{ end }}
-    {{ if gt ( $nComments.Get "nComments" ) 1 }}
-      <span class="middot-divider"></span>
-      <a href="{{ $page.RelPermalink }}#comments">{{ $nComments.Get "nComments" }} Comments</a>
-    {{ else if eq ( $nComments.Get "nComments" ) 1 }}
-      <span class="middot-divider"></span>
-      <a href="{{ $page.RelPermalink }}#comments">1 Comment</a>
-    {{ else }}
-      <span class="middot-divider"></span>
-      <a href="{{ $page.RelPermalink }}#comments">0 Comments</a>
-    {{ end }}
-  {{ end}}
-  
+   {{ with .Resources.Match "comments/*.yml" }}
+
+      {{ $.Scratch.Set "commentCountPerPost" 0 }}
+      {{ if $.Slug }} <!-- Can't count comments without slug -->
+        {{ if fileExists (printf "data/comments/%s" $.Slug) }} <!-- If the comment dir exists, we can count comments -->
+          {{ $comments := readDir (printf "data/comments/%s" $.Slug) }}
+          {{ $.Scratch.Set "commentCountPerPost" (len $comments) }}
+        {{ end }}
+      {{ end }}
+      {{ if gt ( $.Scratch.Get "commentCountPerPost" ) 1 }}
+        <span class="middot-divider"></span>
+        <a href="{{ $.Permalink }}#comments">{{ $.Scratch.Get "commentCountPerPost" }} Comments</a>
+      {{ else if eq ( $.Scratch.Get "commentCountPerPost" ) 1 }}
+        <span class="middot-divider"></span>
+        <a href="{{ $.Permalink }}#comments">1 Comment</a>
+      {{ end }}
+  {{ end }}
+
+
   {{ $taxonomy := "categories" }}
   {{ with $page.Param $taxonomy }}
   <span class="middot-divider"></span>
