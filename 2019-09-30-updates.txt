@@ -1,8 +1,9 @@
 September 30, 2019
+==================
 
 Trying to get my website up and running again
 
-Problem 1:
+Problem:
 
 - It appears that my local personal_website folder is not in sync with my github repo
 - Maybe this happens when my computer died last year, and I haven't been able to re-set it up since.
@@ -60,4 +61,29 @@ NOTE 1: this will require setting up Netlify as well, as it will require a new v
 
 NOTE 2: I am sort of a dumbass, as I HAD a local copy properly synced to GH. It was on Google Drive/Website not in Google Drive/RCode/personal_website!!
 
+GOALS
+=====
 
+- Update the whole infrastructure to Academic 4.5
+- In particular:
+    1. Using staticman to handle comments
+    2. Using reCaptcha to handle spam in comments
+
+Adapting Academic 4.5 to handle staticman comments
+--------------------------------------------------
+
+1. Basic infrastructure in configuration files
+
+2. Changing the layout partials to handle comments
+
+UPDATE ON OCTOBER 1st:
+
+- I've made a number of changes on the hugo infrastructure that work with the new page bundle organization. Basically, all the composing parts of a post (images, docs, etc) can now be stored under the same folder and looked up and referred to quite easily with the new resources look up.
+
+- With this organization, it would make sense if the comments were also inside the post bundle.
+
+- I've made it work from the perspective of the directory structure: Comments added to a /comments subfolder are correctly read and counted into their containing page. Adding new comments should be a matter of automatically dropping a new file in the relevant /comments subfolder.
+
+- Unfortunately, the bottleneck here is Staticman, which requires a single static folder as a path. Thus, it seems that I cannot dynamically pass the page bundle folder of the post being commented on to Staticman, which makes my solution pointless
+
+- I've found an updated version of a hugo blog that uses staticman AND page bundles, but comments and posts are kept separate. At least the framework seems to work: https://github.com/dancwilliams/networkhobo. Now all I need to do is adapt what they do there to my directory infrastructure. So much work just for comments!
