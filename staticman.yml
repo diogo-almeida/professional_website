@@ -67,6 +67,7 @@ comments:
   # Destination path (directory) for the data files. Accepts placeholders.
   # content/post/{options.slug} gives me an error
   # content/post/comments/{options.slug} works
+  # this worked: content/post/{options.entryID}
   path: "content/post/{options.entryID}"
 
   # Names of required fields. If any of these isn't in the request or is empty,
