@@ -71,6 +71,7 @@ comments:
   # content/post/{options.section}/{options.entryID} gives error
   # content/{options.section}/{options.entryID} also gives an error
   # content/{options.slug}/{options.entryID} also error
+  # content/post/{options.section} this works
   path: "content/post/{options.section}"
 
   # Names of required fields. If any of these isn't in the request or is empty,
