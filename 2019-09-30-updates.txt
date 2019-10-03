@@ -86,6 +86,8 @@ UPDATE ON OCTOBER 1st:
 
 - Unfortunately, the bottleneck here is Staticman, which requires a single static folder as a path. Thus, it seems that I cannot dynamically pass the page bundle folder of the post being commented on to Staticman, which makes my solution pointless
 
+--> UPDATE NOTE Oct 3rd: It turns out this was due to my ignorance on how staticman worked the path. It was not entirely clear to me where staticman got the 'options' and 'fields' data structures before. Now I understand that it reads it from the form html code, where these structures are simply potential parts of the 'name' attribute. In this way, I can just pass something like options[whatever] in the html form and retrieve this as {options.whatever}  as a variable in the staticman config file. By passing the .RelPermalink variable to options[slug], I can get the correct folder name where the comments should go. However, the variable already includes the folder separators "/", so I need to create a string like "content/post{options.slug}comments" if I want the system to work as I intended. And it seems to! YAY!
+
 - I've found an updated version of a hugo blog that uses staticman AND page bundles, but comments and posts are kept separate. At least the framework seems to work: https://github.com/dancwilliams/networkhobo. Now all I need to do is adapt what they do there to my directory infrastructure. So much work just for comments!
 
 UPDATE ON OCTOBER 2nd:
