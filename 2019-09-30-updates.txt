@@ -87,3 +87,17 @@ UPDATE ON OCTOBER 1st:
 - Unfortunately, the bottleneck here is Staticman, which requires a single static folder as a path. Thus, it seems that I cannot dynamically pass the page bundle folder of the post being commented on to Staticman, which makes my solution pointless
 
 - I've found an updated version of a hugo blog that uses staticman AND page bundles, but comments and posts are kept separate. At least the framework seems to work: https://github.com/dancwilliams/networkhobo. Now all I need to do is adapt what they do there to my directory infrastructure. So much work just for comments!
+
+UPDATE ON OCTOBER 2nd:
+
+- Will start adapting the infrastructure that works (https://github.com/dancwilliams/networkhobo) for academic. Let's see how this works.
+
+- Remember (https://sourcethemes.com/academic/docs/front-matter/):
+RMarkdown should be saved with the .Rmarkdown file extension rather than the .Rmd extension.
+
+1. add permalinks option in config.toml (has to be there and not in params for blogdown!) - apparently it's better for page bundles too
+
+[permalinks]
+  post = "/:title/"
+
+2.
