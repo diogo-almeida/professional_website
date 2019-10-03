@@ -2,7 +2,7 @@
 name = "da_ft_01"
 
 # Optional Google font URL
-google_fonts = "Lora|Encode+Sans+Condensed:100,500,700|Oxygen+Mono"
+google_fonts = "Lora|Encode+Sans+Condensed:300,500,700|Oxygen+Mono"
 
 # Font families
 heading_font = "Encode Sans Condensed"
