@@ -93,7 +93,8 @@ UPDATE ON OCTOBER 2nd:
 - Will start adapting the infrastructure that works (https://github.com/dancwilliams/networkhobo) for academic. Let's see how this works.
 
 - Remember (https://sourcethemes.com/academic/docs/front-matter/):
-RMarkdown should be saved with the .Rmarkdown file extension rather than the .Rmd extension.
+RMarkdown should be saved with the .Rmarkdown file extension rather than the .Rmd extension.  --> ACTUALLY, I've just tried with both and they both work. the difference is that index.Rmarkdown produces an index.markdown file while index.Rmd produced index.html. I guess I'd rather have a markdown output, but both seem to work.
+
 
 1. add permalinks option in config.toml (has to be there and not in params for blogdown!) - apparently it's better for page bundles too
 
