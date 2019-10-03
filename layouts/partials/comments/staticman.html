@@ -1,12 +1,9 @@
 {{ if .Site.Params.comments.staticman }}
-{{ $postSlug := .RelPermalink }}
-
 <section class="staticman-comments post-comments">
   <h3>Comments</h3>
 
   {{ with .Resources.Match "comments/*.yml" }}
 	  {{ range . }}
-    {{ printf $postSlug }}
     {{ $comment := .Content | transform.Unmarshal }}
     	{{ with $comment }}
 	 		  <div id="commentid-{{ ._id }}" class="post-comment">
@@ -32,6 +29,7 @@
   <form class="post-new-comment" method="post" action="{{ .Site.Params.comments.staticman.endpoint }}/{{ .Site.Params.comments.staticman.username }}/{{ .Site.Params.comments.staticman.repository }}/{{ .Site.Params.comments.staticman.branch }}/{{ .Site.Params.comments.staticman.property }}">
     <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
     <input type="hidden" name="options[slug]" value="{{ .RelPermalink }}">
+    <input type="hidden" name="options[permalink]" value="{{ .Permalink }}">
 
     <fieldset>
       <input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
