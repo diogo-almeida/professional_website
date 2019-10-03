@@ -30,7 +30,7 @@
   Your email is only used for <a href="https://gravatar.com" target="_blank">Gravatar</a> images.
 
   <form class="post-new-comment" method="post" action="{{ .Site.Params.comments.staticman.endpoint }}/{{ .Site.Params.comments.staticman.username }}/{{ .Site.Params.comments.staticman.repository }}/{{ .Site.Params.comments.staticman.branch }}/{{ .Site.Params.comments.staticman.property }}">
-    <input type="hidden" name="options[redirect]" value="{{ .RelPermalink }}#comment-submitted">
+    <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
 
     <fieldset>
       <input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
