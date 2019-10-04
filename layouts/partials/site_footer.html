@@ -3,21 +3,19 @@
 
     {{ with .Site.GetPage "privacy.md" }}
     <p class="powered-by">
-      {{ with .Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
-
-      <a href = "mailto:diogo@nyu.edu" target="_blank"><i class="fas fa-envelope"></i></a> &middot;
-      <a href = "https://github.com/diogo-almeida" target="_blank"><i class="fab fa-github-alt"></i></a> &middot;
-      <a href = "https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><i class="fab fa-creative-commons" aria-hidden="true"></i></a> &middot;
-
       {{ printf "<a href=\"%s\">%s</a>" .Permalink .Title | safeHTML }}
-
     </p>
     {{ end }}
 
     <p class="powered-by">
+      {{ with .Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
 
+      <a href = "mailto:diogo@nyu.edu" target="_blank"><i class="fas fa-envelope"></i></a> &middot;
+      <a href = "https://github.com/diogo-almeida" target="_blank"><i class="fab fa-github-alt"></i></a> &middot;
+      <a href = "https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><i class="fab fa-creative-commons" aria-hidden="true"></i></a>
+      <br>
 
-      Powered by the
+      Made with
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
       <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and
       <a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">Blogdown</a>.

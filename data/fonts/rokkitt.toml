@@ -2,7 +2,7 @@
 name = "Rokkitt"
 
 # Optional Google font URL
-google_fonts = "Rokkitt:400,800|Karla|Overpass|Alegreya+Sans|Maven+Pro|Cantarell|Ropa+Sans|Scada|Cambay|Niramit:400,700|Overpass+Mono"
+google_fonts = "Rokkitt:500,700,900|Karla|Overpass|Alegreya+Sans|Maven+Pro|Cantarell|Ropa+Sans|Scada|Cambay|Niramit:400,700|Overpass+Mono"
 
 # Niramit | Cambay | Maven Pro| Cantarell | Scada |
 # Bai Jamjuree goes well with it, but it is not for body text

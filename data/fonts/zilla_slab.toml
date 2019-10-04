@@ -1,10 +1,9 @@
 # Font style metadata
 name = "zilla_slab"
 
-# OFiraional Google font URL
+# Optional Google font URL
 google_fonts = "Zilla+Slab:400,600|Nunito+Sans|Fira+Mono"
 
-# Font families
 heading_font = "Zilla Slab"
 body_font = "Nunito Sans"
 nav_font = "Zilla Slab"

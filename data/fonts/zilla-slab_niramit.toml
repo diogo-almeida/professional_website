@@ -1,0 +1,10 @@
+# Font style metadata
+name = "zilla_slab2"
+
+# Optional Google font URL
+google_fonts = "Zilla+Slab:400,600|Niramit:400,700|Overpass+Mono"
+
+heading_font = "Zilla Slab"
+body_font = "Niramit"
+nav_font = "Niramit"
+mono_font = "Overpass Mono"

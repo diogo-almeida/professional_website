@@ -1,0 +1,13 @@
+# Font style metadata
+name = "volkhov"
+
+# Optional Google font URL
+# Montserrat also goes well with
+# Volkhov, Lora, Domine and Georgia
+google_fonts = "Volkhov|Cabin|Lato|Roboto+Mono"
+
+# Font families
+heading_font = "Volkhov"
+body_font = "Lato"
+nav_font = "Volkhov"
+mono_font = "Roboto Mono"

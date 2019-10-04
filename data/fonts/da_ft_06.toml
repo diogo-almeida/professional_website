@@ -9,7 +9,3 @@ heading_font = "Nunito Sans"
 body_font = "Faustina"
 nav_font = "Nunito Sans"
 mono_font = "Overpass Mono"
-
-# Font size
-font_size = "20"
-font_size_small = "16"

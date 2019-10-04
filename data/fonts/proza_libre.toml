@@ -1,0 +1,13 @@
+# Font style metadata
+name = "proza_libre"
+
+# Optional Google font URL
+# Montserrat also goes well with
+# Volkhov, Lora, Domine and Georgia
+google_fonts = "Proza+Libre|Cabin|Lato|Roboto+Mono"
+
+# Font families
+heading_font = "Proza Libre"
+body_font = "Proza Libre"
+nav_font = "Proza Libre"
+mono_font = "Roboto Mono"
