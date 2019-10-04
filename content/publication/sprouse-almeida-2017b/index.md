@@ -1,6 +1,7 @@
 ---
 title: "Setting the empirical record straight: Acceptability judgments appear to be reliable, robust and replicable"
 date: 2017-10-01T00:00:00
+doi: 10.1017/S0140525X17000590
 authors:
 - Jon Sprouse
 - admin

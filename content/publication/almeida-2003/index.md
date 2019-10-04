@@ -25,15 +25,6 @@ tags:
 - Artificial Language Learning
 
 # links:
-# - name: 
-#   url: ''
-url_pdf: ''
-url_preprint: http://sapience.dec.ens.fr/cogmaster/www/doc/MEMOIRES/2003_ALMEIDA.pdf
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+url_preprint: https://drive.google.com/file/d/0B36GYIWWvWmTYVdzSENTMmpzN2c/view?usp=sharing
+
 ---

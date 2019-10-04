@@ -29,5 +29,11 @@ tags:
 - Linguistic Methodology
 
 # Links (optional).
-url_pdf: "https://www.glossa-journal.org/articles/10.5334/gjgl.236/galley/133/download/"
+links:
+- name: PDF (open access)
+  url: https://www.glossa-journal.org/articles/10.5334/gjgl.236/galley/133/download/
+  icon_pack: ai
+  icon: open-access
+  
+#url_pdf: https://www.glossa-journal.org/articles/10.5334/gjgl.236/galley/133/download/
 ---

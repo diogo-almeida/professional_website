@@ -28,5 +28,13 @@ tags:
 - Replication
 
 # Links (optional).
+links:
+- name: Materials
+  url: https://sprouse.uconn.edu/data/JoL2012/SA2012.materials.zip
+
+
+
 url_pdf: "https://drive.google.com/open?id=0B36GYIWWvWmTUHZXdjBpU1EtOW8"
+url_dataset: "https://sprouse.uconn.edu/data/JoL2012/SA2012.data.zip"
+
 ---

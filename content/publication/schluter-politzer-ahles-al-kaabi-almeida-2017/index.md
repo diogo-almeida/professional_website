@@ -34,5 +34,11 @@ tags:
 - Phoneme
 
 # Links (optional).
-url_pdf: "https://www.frontiersin.org/article/10.3389/fpsyg.2017.00746/pdf"
+links:
+- name: PDF (open access)
+  url: https://www.frontiersin.org/article/10.3389/fpsyg.2017.00746/pdf
+  icon_pack: ai
+  icon: open-access
+
+# url_pdf: https://www.frontiersin.org/article/10.3389/fpsyg.2017.00746/pdf
 ---

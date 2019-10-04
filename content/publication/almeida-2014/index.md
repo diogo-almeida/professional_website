@@ -23,8 +23,19 @@ tags:
 - Acceptability Judgments
 - Syntax
 
+
 # links:
-url_pdf: https://drive.google.com/open?id=0B36GYIWWvWmTbWloQncxWm5kUnc
+links:
+- name: PDF (open access)
+  url: http://revista.abralin.org/index.php/abralin/article/view/1187/1110
+  icon_pack: ai
+  icon: open-access
+- name: Data & Code
+  url: https://figshare.com/articles/Data_Analysis_scripts_and_materials_for_Almeida_D_2014_Subliminal_wh-islands_in_Brazilian_Portuguese_and_the_consequences_for_syntactic_theory_Revista_da_ABRALIN_13_2_55-91_/7586675
+  icon_pack: ai
+  icon: figshare
+
+# url_pdf: https://drive.google.com/open?id=0B36GYIWWvWmTbWloQncxWm5kUnc
 url_preprint: http://ling.auf.net/lingbuzz/002240/
 
 projects:

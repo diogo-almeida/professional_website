@@ -27,5 +27,11 @@ tags:
 - Underspecification
 
 # Links (optional).
-url_pdf: "https://www.researchgate.net/profile/Diogo_Almeida7/publication/285584114_No_place_for_h_ERP_investigation_of_English_fricative_place_features/links/56fe4aa408ae1408e15cfc77.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=12pfXIYZOAa3hHg8vc1vnVizSIFwHb6Llx3VM0__QZviZQzPRAOhSfTDZwCgRx-VNKTr97MuojehrfxII13KDA.0DLgMhuLtwXcss7nCsGvofBlymdcv1EzL9ivyB2MdKqZOMWCcIcw3CIl_WHme6J-iOnruwLQiXwsFMxAU1NbqA.YYJyv6oHX02ARhR5jo8BUQw0vshoDl1rk_LazdcAR_i2LbFYoCilNOqF7uGxJ-6UD-ieUjfWT-b8Pp87Q-rvyQ"
+links:
+- name: PDF (open access)
+  url: https://psycnet.apa.org/fulltext/2016-24934-001.pdf
+  icon_pack: ai
+  icon: open-access
+
+# url_pdf: "https://www.researchgate.net/profile/Diogo_Almeida7/publication/303379580_Asymmetries_in_the_Perception_of_Mandarin_Tones_Evidence_From_Mismatch_Negativity/links/5741eeec08ae9ace841877d6/Asymmetries-in-the-Perception-of-Mandarin-Tones-Evidence-From-Mismatch-Negativity.pdf?_sg%5B0%5D=wjxJ6Je7dho9jK0Z5l17cv3_DRY9zOXpwzXHbo0vTd_U65iwx2xOI2lLiLlUZ4R2LeW3jXMBLtoMfpz7D2Sbvg.K5gzqoW3utPr2hhuCVj6DC9xD2fwKikh0Ua3fS-v2-P2Iti0olzD_M9KZnAsBrn7pWV7UO0y5yZJrVAv_uVGiA&_sg%5B1%5D=lpeqlKYgdzlyF67tjEdR2zPptgIgDtZt86psBijWfdZ52sJfUE-pkBm6kXffYpiA4WaC-RJ3eL5CCM7UzhnaF8koO96bH33Yu7XjHMbDXktM.K5gzqoW3utPr2hhuCVj6DC9xD2fwKikh0Ua3fS-v2-P2Iti0olzD_M9KZnAsBrn7pWV7UO0y5yZJrVAv_uVGiA&_iepl="
 ---

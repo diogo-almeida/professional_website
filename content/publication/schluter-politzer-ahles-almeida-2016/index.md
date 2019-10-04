@@ -30,5 +30,11 @@ tags:
 - Featurally Underspecified Lexicon
 
 # Links (optional).
-url_pdf: "https://www.researchgate.net/profile/Diogo_Almeida7/publication/285584114_No_place_for_h_ERP_investigation_of_English_fricative_place_features/links/56fe4aa408ae1408e15cfc77.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=12pfXIYZOAa3hHg8vc1vnVizSIFwHb6Llx3VM0__QZviZQzPRAOhSfTDZwCgRx-VNKTr97MuojehrfxII13KDA.0DLgMhuLtwXcss7nCsGvofBlymdcv1EzL9ivyB2MdKqZOMWCcIcw3CIl_WHme6J-iOnruwLQiXwsFMxAU1NbqA.YYJyv6oHX02ARhR5jo8BUQw0vshoDl1rk_LazdcAR_i2LbFYoCilNOqF7uGxJ-6UD-ieUjfWT-b8Pp87Q-rvyQ"
+links:
+- name: PDF (open access)
+  url: https://www.tandfonline.com/doi/abs/10.1080/23273798.2016.1151058?needAccess=true#aHR0cHM6Ly93d3cudGFuZGZvbmxpbmUuY29tL2RvaS9wZGYvMTAuMTA4MC8yMzI3Mzc5OC4yMDE2LjExNTEwNTg/bmVlZEFjY2Vzcz10cnVlQEBAMA==
+  icon_pack: ai
+  icon: open-access
+
+# url_pdf: https://www.researchgate.net/profile/Diogo_Almeida7/publication/285584114_No_place_for_h_ERP_investigation_of_English_fricative_place_features/links/56fe4aa408ae1408e15cfc77.pdf?origin=publication_detail&ev=pub_int_prw_xdl&msrp=12pfXIYZOAa3hHg8vc1vnVizSIFwHb6Llx3VM0__QZviZQzPRAOhSfTDZwCgRx-VNKTr97MuojehrfxII13KDA.0DLgMhuLtwXcss7nCsGvofBlymdcv1EzL9ivyB2MdKqZOMWCcIcw3CIl_WHme6J-iOnruwLQiXwsFMxAU1NbqA.YYJyv6oHX02ARhR5jo8BUQw0vshoDl1rk_LazdcAR_i2LbFYoCilNOqF7uGxJ-6UD-ieUjfWT-b8Pp87Q-rvyQ
 ---

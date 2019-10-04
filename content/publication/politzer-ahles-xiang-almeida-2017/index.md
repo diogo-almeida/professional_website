@@ -29,5 +29,11 @@ tags:
 - Semantics
 
 # Links (optional).
-url_pdf: "http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0175199&type=printable"
+links:
+- name: PDF (open access)
+  url: http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0175199&type=printable
+  icon_pack: ai
+  icon: open-access
+
+# url_pdf:
 ---

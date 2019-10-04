@@ -34,5 +34,15 @@ tags:
 - Sentence Processing
 
 # Links (optional).
-url_pdf: http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00347/pdf
+links:
+- name: PDF (open access)
+  url: http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00347/pdf
+  icon_pack: ai
+  icon: open-access
+- name: Data & Code
+  url: https://figshare.com/articles/_Representing_number_in_the_real-time_processing_of_agreement_Self-paced_reading_evidence_from_Arabic_Compressed_data_in_RData_format_for_direct_download_/4584331
+  icon_pack: ai
+  icon: figshare
+
+# url_pdf: http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00347/pdf
 ---

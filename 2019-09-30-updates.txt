@@ -107,4 +107,19 @@ RMarkdown should be saved with the .Rmarkdown file extension rather than the .Rm
 [permalinks]
   post = "/:title/"
 
-2.
+TO DO LIST:
+
+1. Fix little problems:
+- Footer (DONE)
+- Lack of picture (DONE - but open issue as I think there is a bug here)
+- make sure all pubs are ok (DONE)
+    - add data where available (DONE)
+    - add master thesis (link is broken - DONE)
+
+2. Add People page
+
+3. Make a post about how to have all of the site working.
+
+4. Add response threads in the comments infrastructure?
+
+5. 

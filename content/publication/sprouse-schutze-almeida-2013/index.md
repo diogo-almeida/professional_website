@@ -30,6 +30,16 @@ tags:
 - Methodology
 
 # Links (optional).
+links:
+- name: Materials
+  url: https://sprouse.uconn.edu/data/Lingua2013/SSA.Materials.xlsx
+- name: Appendix B
+  url: https://sprouse.uconn.edu/papers/SSA.AppendixB.pdf
+- name: Table Corrigenda
+  url: https://sprouse.uconn.edu/papers/SSA.Table.Corrigenda.pdf
+
 url_pdf: "https://drive.google.com/open?id=0B36GYIWWvWmTd2sxUkZwWGpNRkk"
 url_preprint: "http://ling.auf.net/lingbuzz/001352"
+url_dataset: "https://sprouse.uconn.edu/data/Lingua2013/SSA.data.zip"
+
 ---
