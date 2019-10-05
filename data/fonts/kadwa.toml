@@ -1,7 +1,8 @@
 # Font style metadata
-name = "Kadwa"
+name = "kadwa"
 
 # Optional Google font URL
+# Kadwa is based on Bitter!
 google_fonts = "Kadwa:400,700|Asap|Libre+Franklin|Source+Code+Pro"
 
 # Font families
