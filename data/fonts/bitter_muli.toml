@@ -2,7 +2,7 @@
 name = "Default"
 
 # Optional Google font URL
-google_fonts = "Bitter:400,700|Muli:300|Roboto+Mono"
+google_fonts = "Bitter:400,700|Muli|Roboto+Mono"
 
 # Font families
 heading_font = "Bitter"

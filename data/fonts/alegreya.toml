@@ -1,0 +1,11 @@
+# Font style metadata
+name = "alegreya"
+
+# Optional Google font URL
+google_fonts = "Alegreya|Alegreya+Sans|Inconsolata"
+
+# Font families
+heading_font = "Alegreya Sans"
+body_font = "Alegreya"
+nav_font = "Alegreya Sans"
+mono_font = "Inconsolata"

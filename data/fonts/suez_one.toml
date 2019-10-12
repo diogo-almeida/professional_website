@@ -1,0 +1,11 @@
+# Font style metadata
+name = "suez_one"
+
+# Optional Google font URL
+google_fonts = "Suez+One|Noticia+Text|Ubuntu|Ubuntu+Mono"
+
+# Font families
+heading_font = "Suez One"
+body_font = "Noticia Text"
+nav_font = "Suez One"
+mono_font = "Ubuntu Mono"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "libre_baskerville_open_sans"
+
+# Optional Google font URL
+google_fonts = "Libre+Baskerville|Open+Sans|Roboto+Mono"
+
+# Font families
+heading_font = "Open Sans"
+body_font = "Libre Baskerville"
+nav_font = "Open Sans"
+mono_font = "Roboto Mono"

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "blinker"
+
+# Optional Google font URL
+google_fonts = "Blinker|Noticia+Text|Ubuntu|Ubuntu+Mono"
+
+# Font families
+heading_font = "Blinker"
+body_font = "Noticia Text"
+nav_font = "Blinker"
+mono_font = "Ubuntu Mono"

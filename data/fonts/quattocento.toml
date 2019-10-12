@@ -1,0 +1,11 @@
+# Font style metadata
+name = "quattrocento"
+
+# Optional Google font URL
+google_fonts = "Quattrocento|Quattrocento+Sans|Roboto+Mono"
+
+# Font families
+heading_font = "Quattrocento"
+body_font = "Quattrocento Sans"
+nav_font = "Quattrocento"
+mono_font = "Roboto Mono"

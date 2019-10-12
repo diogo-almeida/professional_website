@@ -18,7 +18,7 @@ organizations:
   url: "https://nyuad.nyu.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include the intersections of linguistic theory, psycholinguistics and neurocience of language.
+bio: My research interests lie at the intersection of linguistic theory, psycholinguistics and neurocience of language.
 
 interests:
 - Cognitive Science
@@ -83,7 +83,6 @@ email: "dalazal@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Researchers
-- Visitors
 ---
 
 I'm an associate professor in Psychology (with an affiliation in Biology) at New York University Abu Dhabi (NYUAD), where I direct the Language, Mind and Brain Lab (LaMB Lab). My work focuses on different aspects of language processing, such as how we perceive speech, how we retrieve words when hearing speech or reading, and how we parse and understand sentences. I am particularly interested in how the language system communicates with our perceptual and memory systems, and I use neuroimaging methods extensively in my research. I am also very fond of pursuing theoretically motivated cross-linguistic work.

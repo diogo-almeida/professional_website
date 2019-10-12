@@ -1,0 +1,11 @@
+# Font style metadata
+name = "anton"
+
+# Optional Google font URL
+google_fonts = "Anton|Libre+Caslon+Text|Inconsolata"
+
+# Font families
+heading_font = "Anton"
+body_font = "Libre Caslon Text"
+nav_font = "Anton"
+mono_font = "Inconsolata"

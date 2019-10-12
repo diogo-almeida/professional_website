@@ -1,0 +1,11 @@
+# Font style metadata
+name = "bitter_B612_2"
+
+# Optional Google font URL
+google_fonts = "Bitter:400,700|B612|B612+Mono"
+
+# Font families
+heading_font = "Bitter"
+body_font = "B612"
+nav_font = "Bitter"
+mono_font = "B612 Mono"

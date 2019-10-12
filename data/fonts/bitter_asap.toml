@@ -1,11 +1,11 @@
 # Font style metadata
-name = "bitter_titillium"
+name = "bitter_asap"
 
 # Optional Google font URL
-google_fonts = "Bitter:400,700|Titillium+Web|Source+Code+Pro"
+google_fonts = "Bitter:400,700|Asap|Source+Code+Pro"
 
 # Font families
 heading_font = "Bitter"
-body_font = "Titillium Web"
+body_font = "Asap"
 nav_font = "Bitter"
 mono_font = "Source Code Pro"

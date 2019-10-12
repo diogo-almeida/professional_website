@@ -1,0 +1,11 @@
+# Font style metadata
+name = "bitter_drsugiyama"
+
+# Optional Google font URL
+google_fonts = "Bitter:400,700|Fira+Sans|Fira+Code|Dr+Sugiyama"
+
+# Font families
+heading_font = "Dr Sugiyama"
+body_font = "Fira Sans"
+nav_font = "Dr Sugiyama"
+mono_font = "Fira Code"

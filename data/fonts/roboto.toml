@@ -1,0 +1,11 @@
+# Font style metadata
+name = "roboto"
+
+# Optional Google font URL
+google_fonts = "Roboto|Roboto+Slab|Roboto+Mono"
+
+# Font families
+heading_font = "Roboto Slab"
+body_font = "Roboto"
+nav_font = "Roboto Slab"
+mono_font = "Roboto Mono"
